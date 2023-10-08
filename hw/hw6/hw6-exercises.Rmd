@@ -1,0 +1,76 @@
+---
+title: "API-201 PROBLEM SET #6"
+output:
+  html_document: default
+---
+
+## Instructions
+
+Due on Thursday, October 19, at 8:00 a.m.
+
+Your Full Name:
+
+Group Members (classmates with whom you worked on this problem set):
+
+1. _____________  
+2. _____________  
+3. _____________  
+4. _____________  
+
+
+HKS Academic Code: I certify that I abide by the Harvard Kennedy School Academic code for all aspects of the course. In terms of problem sets, unless explicitly written otherwise, the norms are the following: You are free (and encouraged) to discuss problem sets with your classmates. However, you must hand in your own unique written work and code in all cases. Any copy/paste of another’s work is plagiarism. In other words, you may work with your classmate(s), sitting side-by-side (physically or remotely!) and going through the problem set question by question, but you must each type your own answers and your own code. For more details, please see syllabus.
+
+## Introduction
+
+**In this problem set, you will import your own dataset into R and visualize it using the `ggplot2` package. Before we begin, ensure that you have the necessary packages installed. If not, you can install them using the `install.packages()` function.**
+
+```{r setup, echo=FALSE}
+# If you haven't yet installed tidyverse, you'll need to run the line below
+# install.packages("tidyverse")
+
+# Load the Tidyverse packages
+library(tidyverse)
+```
+
+## Load Your Dataset
+
+**In the code chunk below, load a dataset for your final exercise into R. You can use functions like `read_csv()` for CSV files or `read_excel()` for Excel files. Replace the placeholder `<PATH_TO_YOUR_DATA>` with the path to your dataset.**
+
+```{r load_data, echo=TRUE}
+
+# Load your dataset here (uncomment and modify the appropriate line below)
+
+# my_data <- read_csv("<PATH_TO_YOUR_CSV_DATA>")
+# my_data <- read_excel("<PATH_TO_YOUR_EXCEL_DATA>")
+
+# Display the first few rows of your dataset
+# head(my_data)
+
+```
+
+## Create a plot with your data
+
+**Once you have your data loaded, create a visualization using `ggplot2`. As an example, the basic structure for a scatterplot is in the commented text below using example variables `<VAR1>` and `<VAR2>`.**
+
+```{r plot_your_data, echo=TRUE}
+
+# ggplot(my_data, aes(x=<VAR1>, y=<VAR2>)) +
+#   geom_point()
+```
+
+## Describe your plot
+
+**Provide a brief description of your plot, and what conclusions your draw from it.**
+
+[ANSWER]
+
+
+## Update on final exercise 
+
+**Below provide a few sentences on the current state of your final exercise, and major next steps.**
+
+[ANSWER]
+
+## Conclusion
+
+**You have successfully loaded RStudio, uploaded a dataset, and made a visualization using `ggplot2`! Click "Knit" >> "Knit to HTML" in the menu above. Next, click the "Open in Browser" button to open the html file in a web browser. Finally, from the browser, save the page as a pdf file, and submit that pdf file on Canvas.**
