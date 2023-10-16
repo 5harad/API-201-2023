@@ -30,6 +30,7 @@ HKS Academic Code: I certify that I abide by the Harvard Kennedy School Academic
 
 # Load the Tidyverse packages
 library(tidyverse)
+library(readxl)
 ```
 
 ## Load Your Dataset
